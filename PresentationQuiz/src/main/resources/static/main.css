@@ -1,0 +1,77 @@
+body {
+    padding-top: 5rem;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+#granica {
+    width: 600px; height: 600px; /* Размеры */
+    background: #B0E0E6; /* Цвет фона */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 15px; /* Радиус скругления */
+    display: inline-block;
+
+}
+
+h1{
+    color:#0000FF;
+}
+
+h2{
+    color:#FF0000;
+}
+
+#password, #username {
+    font-size:25px;
+}
+#passwordtxt {
+    text-indent:-230px;
+}
+#knopkaVhod{
+    margin-left:235px;
+}
+#logintxt {
+    text-indent:-235px;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: grey; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+}
+
+
+body {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    background-size: contain!important;
+    font-weight: bold!important;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .45;
+    z-index: -1;
+    background-size: contain!important;
+    background: url("/background.jpg");
+}
+#table{
+    border-collapse: collapse;
+    /*убираем пустые промежутки между ячейками*/
+    border: 1px solid grey;
+    /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+    width: 1000px;
+    margin: auto;
+    margin-top:100px;
+}
+.th{
+    border: 3px solid #ffffff;
+    font-size: 25px;
+    background:#B0E0E6;
+}
